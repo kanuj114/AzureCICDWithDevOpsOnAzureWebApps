@@ -1,0 +1,10 @@
+Finally, we have created the agent, because the pipeline needs a hosting environment.
+Azure DevOps does not provide the agent and hosting by itself.
+
+Pipelines for CI/CD
+
+A. .NET Core WebAPI + Azure SQL Server + CI/CD + Azure DevOps (Deployed on Azure WebApps).
+   .NET Core running locally → Push to GitHub → Open Azure DevOps → (Service Connections: Authenticate the Azure Subscription) 
+    → Then we can generate the pipeline for build and release on Azure Web App.
+    
+B. .NET Core WebAPI + Azure SQL Server + CI/CD + Azure DevOps (Deployed on IIS).
