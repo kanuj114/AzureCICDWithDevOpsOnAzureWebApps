@@ -136,3 +136,8 @@ D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\GitHubCICD.pdb
 D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\GitHubCICD.genruntimeconfig.cache
 D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\ref\GitHubCICD.dll
 D:\DotNet\GitHubActions\GitHubCICD\obj\Debug\net8.0\GitHubCICD.sourcelink.json
+D:\DotNet\GitHubActions\GitHubCICD\bin\Debug\net8.0\publish\web.config
+D:\DotNet\GitHubActions\GitHubCICD\bin\Debug\net8.0\publish\appsettings.Development.json
+D:\DotNet\GitHubActions\GitHubCICD\bin\Debug\net8.0\publish\appsettings.json
+D:\DotNet\GitHubActions\GitHubCICD\bin\Debug\net8.0\publish\GitHubCICD.deps.json
+D:\DotNet\GitHubActions\GitHubCICD\bin\Debug\net8.0\publish\GitHubCICD.runtimeconfig.json
