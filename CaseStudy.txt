@@ -38,13 +38,20 @@ A. .NET Core WebAPI + Azure SQL Server + CI/CD + Azure DevOps (Deployed on Azure
    Requirement: Provide the Connection_string of Azure SQL server.
 
 B. .NET Core WebAPI + Azure SQL Server + CI/CD + Azure DevOps (Deployed on IIS).
+<<<<<<< HEAD
    - DotNet Core + GitHub = Pipeline = Agent(For running Pipeline) = Release (Deployment)
      + VM or agent by Deployment group. 
    - Now you are eligible to deploy the application on IIS Server.
+=======
+   - DotNet Core + GitHub = pipeline = Agent = Release (Deployment)
+   - VM or agent by Deployment group
+   - Eligible to deploy on IIS Server
+>>>>>>> eeb5ed9859104e1aaa2066854ad465805b84ae54
 
 ------------------------------------------
 
 Troubleshooting:
+<<<<<<< HEAD
 
 - Generally, in an office environment (by default, Windows Server is used).
 - Now we have Windows 11 (some configuration is required).
@@ -68,3 +75,8 @@ Finally we have two agents:
 4. Same application is to be deployed on azure app with CI/CD of DevOps [Multistaging]
 
 
+=======
+- Ensure agents are properly configured (self-hosted agent required for Azure DevOps).
+- Verify service connections for authentication with Azure Subscription.
+- Use multistage YAML pipelines for structured CI/CD process.
+>>>>>>> eeb5ed9859104e1aaa2066854ad465805b84ae54
